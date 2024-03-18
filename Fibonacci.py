@@ -1,5 +1,6 @@
 class Fibonacci:
     def iterative(self, n):
+        #Complexity: O(n), n is the input number
         if n == 0:
             return 0 
         elif n == 1 :
@@ -12,6 +13,7 @@ class Fibonacci:
         return b
     
     def recursive(self, n):
+        #Complexity: O(2^n), n is the input number
         if n == 0:
             return 0
         elif n == 1:
